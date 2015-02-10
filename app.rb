@@ -48,7 +48,7 @@ post '/contact' do
       body  cont
       from  from
       subject subj
-      to    'buckeyehackers+web@gmail.com'
+      to    'contact@buckhacks.org'
   end
 
   puts email.to_s
