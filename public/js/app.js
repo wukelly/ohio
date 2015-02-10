@@ -60,7 +60,7 @@ $(document).ready(function() {
 		event.preventDefault();
 
 		if ($header.hasClass('header-open')) {
-
+			closeHeader();
 		} else {
 			$.scrollTo($(".about"), 500);
 			$("li").addClass('hb-open');
