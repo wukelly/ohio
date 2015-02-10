@@ -444,6 +444,10 @@ button {
     transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
   100% {
     transform: perspective(400px); } }
+img {
+  width: auto;
+  height: 100%; }
+
 .row {
   width: 100%;
   display: table;
