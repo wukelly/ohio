@@ -130,7 +130,7 @@ body {
       margin-right: 0; }
 
 .about > .section-block {
-  background: linear-gradient(rgba(187, 0, 0, 0.6), rgba(187, 0, 0, 0.6)), url("/images/hacking02.jpg");
+  background: linear-gradient(rgba(187, 0, 0, 0.6), rgba(187, 0, 0, 0.6)), url("../images/hacking02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: border-box;
@@ -138,7 +138,7 @@ body {
   background-size: cover; }
 
 .stats > .section-block {
-  background: linear-gradient(rgba(102, 102, 102, 0.8), rgba(102, 102, 102, 0.8)), url("/images/onStage.jpg");
+  background: linear-gradient(rgba(102, 102, 102, 0.8), rgba(102, 102, 102, 0.8)), url("../images/onStage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: border-box;
@@ -146,7 +146,7 @@ body {
   background-size: cover; }
 
 .events > .section-block {
-  background: linear-gradient(rgba(187, 0, 0, 0.6), rgba(187, 0, 0, 0.6)), url("/images/enterEvent.jpg");
+  background: linear-gradient(rgba(187, 0, 0, 0.6), rgba(187, 0, 0, 0.6)), url("../images/enterEvent.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: border-box;
@@ -154,7 +154,7 @@ body {
   background-size: cover; }
 
 .contact > .section-block {
-  background: linear-gradient(rgba(102, 102, 102, 0.8), rgba(102, 102, 102, 0.8)), url("/images/hack2.jpg");
+  background: linear-gradient(rgba(102, 102, 102, 0.8), rgba(102, 102, 102, 0.8)), url("../images/hack2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: border-box;
@@ -263,7 +263,7 @@ footer {
   width: 100%;
   position: relative;
   top: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/gitEvent.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/gitEvent.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: border-box;
