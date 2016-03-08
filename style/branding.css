@@ -1,0 +1,18 @@
+.green {
+	border: 3px solid green;
+}
+.green h2 {
+	color: green;
+}
+.yellow {
+	border: 3px solid #FFCC33;
+}
+.yellow h2 {
+	color: #FFCC33;
+}
+.scarlet {
+	border: 3px solid #BB0000;
+}
+.scarlet h2 {
+	color: #BB0000;
+}
