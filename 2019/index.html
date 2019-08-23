@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="style/nav.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/section.css">
     <link rel="stylesheet" type="text/css" href="style/clock.css">
     <link rel="stylesheet" type="text/css" href="https://www.osu.edu/assets/fonts/webfonts.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -25,28 +26,29 @@
     <!--Home content-->
     <div id="home">
         <img id="hack-logo" class="grow" src="img/hack-logo.svg" alt="HackOHI/O logo" />
-        <h2 class="bold-msg">The Ohio State University's annual hackathon.</h2>
-        <h3>November 2 - 3, 2019</h3>
-        <h3>
-            <a target="_blank" href="https://www.google.com/maps/place/Ohio+Union,+Columbus,+OH+43210/@39.998361,-83.0099487,17z/data=!3m1!4b1!4m2!3m1!1s0x88388eb8e1ad7407:0x6eb50adaef6f6294">
+        <h1 class="bold-msg">The Ohio State University's annual hackathon.</h1>
+        <h2>November 2 - 3, 2019</h2>
+        <h2>
+            <a target="_blank" href="https://www.google.com/maps/place/Ohio+Union/@39.9976772,-83.0107641,17z/data=!3m1!4b1!4m5!3m4!1s0x88388eb8c5837241:0x29e24cc55fefd423!8m2!3d39.9976772!4d-83.0085754">
                 <img height="18px" src="img/location-pin.png" alt="pin"/>
             </a>
             Ohio Union - Columbus, Ohio
-        </h3>
+        </h2>
         <br>
-        <div id=countdown></div>
-        <br><br><br><br>
+        <div id="countdown"></div>
+        <br><br><br>
     </div>
 
     <!--class section will also are sections to insert-->
     <span id="nav-container">
         <nav id="nav">
-            <a href="#apply"><strong>Apply</strong></a>
+            <a href="https://reghackohio.com"><strong>Apply</strong></a>
             <a href="#about" class="section">About</a>
             <a href="#hype-events" class="section">Hype Events</a>
             <a href="#schedule" class="section">Schedule</a>
             <a href="#faq" class="section">FAQ</a>
-            <a href="#judging" class="section">Challenges & Judging</a>
+            <a href="#judging" class="section">Judging</a>
+            <a href="#challenges" class="section">Challenges</a>
             <a href="#sponsors" class="section">Sponsors</a>
         </nav>
     </span>
@@ -55,5 +57,7 @@
     <div id="content"></div>
 
     <script type="text/javascript" src="script/clock.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
+    <script type="text/javascript" src="script/hype-events.js"></script>
 </body>
 </html>

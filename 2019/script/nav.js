@@ -4,8 +4,7 @@ $(document).ready(function() {
     content = $("#content")[0];
 
     var currentPos = 0, previousPos = 0, top;
-    $(document).scroll(function() { stickNavbar(); });
-
+    $(document).scroll(function() { stickNavbar();});
     $("#nav-spacer").css("height", window.innerHeight - nav.offsetHeight);
     $(".section-page").css("padding-top", nav.offsetHeight);
     $(window).resize(function() {
@@ -13,7 +12,6 @@ $(document).ready(function() {
         $(".section-page").css("padding-top", nav.offsetHeight);
     });
 
-    // stick nav bar to the bottom on render
     function stickNavbar() {
         currentPos = $(document).scrollTop();
         if (!top && currentPos > previousPos && currentPos >= window.innerHeight - nav.offsetHeight) {
@@ -40,4 +38,20 @@ $(document).ready(function() {
         nav.style.bottom = 0;
         top = false;
     }
+
+    $(".section").click( function(e) {
+        showSection(e.currentTarget.hash);
+    });
+
+    function showSection(showId) {
+      $('.section').each(function(i) {
+            var id = $('.section')[i].hash;
+            if (id == showId) {
+                $(id).show();
+            } else {
+                $(id).hide();
+            }
+        });
+    }
+
 });

@@ -19,13 +19,12 @@ body {
 }
 
 #hack-logo {
-    width: 20%;
+    height: 37vh;
 }
 
 #content {
     background-color: white;
     margin: 0;
-    padding: 20px 0;
     width: 100%;
     position: relative;
 }
@@ -34,19 +33,21 @@ body {
     height: 2vh;
 }
 
-h2 {
+h1 {
     font-size: 2.4em;
-    font-weight: 575;
+    font-weight: 600;
     margin: 3vh 0 2vh 0;
 }
 
-h3 {
+h2 {
     font-size: 1.6em;
     font-weight: 200;
     margin: 1vh;
 }
 
-.section-page {
-    text-align: center;
-    padding-bottom: 60vh;
+
+@media screen and (max-width: 800px) {
+	#hack-logo {
+		height: 30vh;
+	}
 }
